@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*header*/
+header{
+    background-image: url("/picture/istockphoto-1402948131-612x612.jpg");
+    background-size: cover;
+    height: 600px;
+}
+
+header .text{
+    padding: 230px 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+/*
+nav .links ul{
+    display: flex;
+}
+
+nav .links ul li{
+    list-style: none;
+    padding-left: 35px;
+}
+
+nav .links ul li a{
+    color: white;
+    text-decoration: none;
+}
+*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px 0 20px;
+    font-size: larger;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.navbar ul a{
+    text-decoration: none;
+    line-height: 32px;
+    font-weight: bold;
+    color: black;
+}
+  
+.navbar ul a:hover{
+    color:#3AAFA9;
+}
+  
+.navbar ul li{
+    float: left;
+    position: relative;
+    padding-left: 50px;
+}
+  
+.navbar ul ul{
+    position: absolute;
+    top:100%;
+    left: 0;
+    display: none;
+    background: white;
+    margin: 0;
+    width: 250px;
+}
+  
+.navbar ul ul a:hover{
+    color: #3AAFA9;
+}
+  
+.navbar ul ul li{
+    float: none;
+}
+  
+.navbar ul ul ul{
+    top:0;
+    left: 100%;
+}
+  
+.navbar ul li:hover > ul{
+    display: block;
+}
+
+/*Contact Details*/
+.contact-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.contact-details .address{
+    display: flex;
+}
+
+.contact-details .get-in-touch{
+    width: 50%;
+}
+
+.contact-details .get-in-touch input{
+    border-radius: 20px;
+    width: 100%;
+    font-size: larger;
+    padding: 2px;
+}
+
+.contact-details .get-in-touch .input-block select{
+    padding: 5px 5px 5px 5px;
+    border-radius: 20px;
+}
+
+.contact-details .get-in-touch #phone-number-input{
+    width: 40%;
+}
+
+.services-budget{
+    columns: 2;
+}
+
+.services li, .budget li{
+    list-style: none;
+    display: inline;
+}
+
+.map iframe{
+    width: 100%;
+}
+
+/*FOOTER*/
+.details{
+    padding: 70px 100px;
+    color: #17252A;
+    background-color: #3AAFA9;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.details a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.details h3{
+    padding-bottom: 20px ;
+}
+
+.details .block{
+    width: 330px;
+    background-color: #3AAFA9;
+}
+
+/*About-US and Useful-Links*/
+.details .about-us li, .useful-links li{
+    display: block;
+    list-style: none;
+    text-underline-offset: 10px;
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+}
+
+/*Contact-US*/
+.details .contact-us{
+    line-height: 25px;
+}
+
+
+.details .contact-us .icon a i{
+    background-color: white;
+    color: #00bfff;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+/*Subscription*/
+.SUBSCRIPTION{
+    width:200px;
+    line-height: 20px;
+}
+
+.SUBSCRIPTION .email{
+    margin-top: 10px;
+}
+
+.SUBSCRIPTION .email input{
+    background-color: #3AAFA9;
+    border: 0.5px solid white;
+    font-size: large;
+    width: 130px;
+}
+
+.SUBSCRIPTION .email button{
+    padding: 5px 10px;
+    font-size: small;
+}
+
+.SUBSCRIPTION .email button:hover{
+    color:white;
+    background-color: blue;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+/*Copyright*/
+.copyright{
+    padding: 30px 70px;
+    color: white;
+    font-size: small;
+    background-color: #333;
+}

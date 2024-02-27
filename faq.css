@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*header*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px 0 20px;
+    font-size: larger;
+}
+
+nav .links ul{
+    display: flex;
+}
+
+nav .links ul li{
+    list-style: none;
+    padding-left: 35px;
+}
+
+nav .links ul li a{
+    text-decoration: none;
+}
+
+/*FAQ*/
+.faq{
+    background-image: url(/image/Capture1.PNG);
+    background-size: cover;
+    padding: 30px 0px 130px 0px;
+}
+
+.faq h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: #3AAFA9;
+}
+
+.faq ul{
+    padding-left: 300px;
+}
+
+.faq li{
+    list-style: none;
+    margin-bottom: 15px;
+    width: 700px;
+    color: #DEF2F1;
+    background-color: #3AAFA9;
+}
+
+.faq li i{
+    color: white;
+    padding: 15px 20px;
+    margin-right: 10px;
+    background-color:#333;
+}
+
+/*FOOTER*/
+.details{
+    padding: 70px 100px;
+    color: #17252A;
+    background-color: #3AAFA9;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.details a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.details h3{
+    padding-bottom: 20px ;
+}
+
+.details .block{
+    width: 330px;
+    background-color: #3AAFA9;
+}
+
+/*About-US and Useful-Links*/
+.details .about-us li, .useful-links li{
+    display: block;
+    list-style: none;
+    text-underline-offset: 10px;
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+}
+
+/*Contact-US*/
+.details .contact-us{
+    line-height: 25px;
+}
+
+
+.details .contact-us .icon a i{
+    background-color: white;
+    color: #00bfff;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+/*Subscription*/
+.SUBSCRIPTION{
+    width:200px;
+    line-height: 20px;
+}
+
+.SUBSCRIPTION .email{
+    margin-top: 10px;
+}
+
+.SUBSCRIPTION .email input{
+    background-color: #3AAFA9;
+    border: 0.5px solid white;
+    font-size: large;
+    width: 130px;
+}
+
+.SUBSCRIPTION .email button{
+    padding: 5px 10px;
+    font-size: small;
+}
+
+.SUBSCRIPTION .email button:hover{
+    color:white;
+    background-color: blue;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+/*Copyright*/
+.copyright{
+    padding: 30px 70px;
+    color: white;
+    font-size: small;
+    background-color: #333;
+}
